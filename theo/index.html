@@ -1,0 +1,80 @@
+<html>
+
+	<head>
+		<link rel="stylesheet" href="css/1280.css"/>
+
+		<script>
+        function pressed(e) {
+            // Has the enter key been pressed?
+            if ( (window.event ? event.keyCode : e.which) == 13) { 
+                // If it has been so, manually submit the <form>
+                document.forms[0].submit();
+            }
+        }
+        </script>
+
+		<style rel = "stylesheet" type ="text/css">
+			body{
+				margin:0px;
+				background-color:#24384b;
+			}
+			*::-webkit-input-placeholder {
+			 	font-size:13pt;
+			 	font-style:italic;
+			 	font-family:Helvetica;
+			 	padding:0px;
+			}    
+			.inputter{
+			
+				font-size:13pt;
+			 	font-family:Helvetica;
+			 	padding-left:10px;
+			 	color:#001d38;
+			}
+			.texty{
+				width:685px;text-align:left;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container_10">
+			<div class="grid_10" style="margin-top:60px;">
+				<center>
+					<img src="banner.png" width="685" height="126" />
+					<iframe style="width:685px;height:150px;margin-top:10px;background-color:#294057;text-align:left;border:0px;" src="texts.php" name="ho">
+
+					</iframe><br>
+					<form method="POST" action="texts.php" target="ho">
+						<input name="name" type="text" style="width:100px;height:40px;margin-top:15px;" class= "inputter" placeholder=" Name ..."/>
+						<input  onkeydown="pressed(event)" name="message" type="text" style="width:575px;height:40px;margin-left:10px;" class= "inputter" placeholder=" Say something about Earth Hour here ..."/>
+					</form>
+
+					<h1 class="texty" style="color:#71baff;font-family:helvetica">What is Earth hour?</h1>
+					<p class="texty" style="text-align:justify;color:#c6e3ff;font-family:Sans-serif">
+						Earth Hour is more than annual event; however it culminates in an hour of inspiration held across the world towards the end of March each year.
+						<br><br>
+						Earth Hour believes that the symbolism of the hour is incredibly important in bringing people and communities together across the globe. But our aspiration from the beginning was to go far beyond the hour itself.
+						<br><br>
+						In 2012, Earth Hour launched I Will If You Will, a platform to incentivise and inspire individuals to share their commitment to the planet with their friends, colleagues, leaders and networks.
+						<br><br>
+						Earth Hour also encourages and promotes many other initiatives around the world, including the Earth Hour City Challenge, the Earth Hour People’s Projects and many national and local actions that take the campaign beyond the hour.
+						<br><br>
+						As of 2014, Earth Hour is supporting crowdfunding and crowdsourcing projects that benefit the planet.
+						<br><br>
+						- <i>earthhour.org</i>
+						<br><br><br>
+					</p>
+					<!--<div class="texty">
+						<h2 style="color:white;font-family:helvetica">Random trivia:</h2>
+						<p style="color:white;font-family:helvetica">
+							 Do you know bulbs are made of tungsten and other wierdly pronounced elements?
+						</p>
+					</div>-->
+				</center>
+
+			</div>
+		</div>
+		
+	</body>
+</html>

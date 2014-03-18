@@ -1,0 +1,288 @@
+body {
+  
+
+  margin:0;
+  font-size: 15px;
+  height: auto;
+}
+
+a {
+  
+}
+
+a:hover {
+
+}
+
+h1 {
+  font-size:50px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+h2 {
+  font-size:40px;
+  font-weight: normal;
+  font-family: 'Titillium Web', sans-serif;
+  /*padding-top: 20px;
+  text-align: center;*/
+}
+/*
+h3{
+  font-size:30px;
+  font-weight: normal;
+  font-family: 'Titillium Web', sans-serif;
+
+}*/
+p {
+  
+}
+
+.container_12,
+.container_16,
+.container_24 {
+
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+}
+
+.container_12 {
+  
+}
+
+.ancs {
+  padding:10px;
+  border:solid 1px;
+  border-radius:10px;
+}
+
+#loginBox{
+  padding:10px;
+  padding-left:30px;
+  
+   border-radius:10px;
+   height:200px;
+   font-family: 'Titillium Web', sans-serif;
+}
+
+#reportTaskBox{
+  /*
+  background-color:white;
+  border:solid 5px;
+  border-radius:10px;*/
+  padding:10px;
+}
+
+#checkTaskBox{
+  /*
+  background-color:white;
+  border:solid 5px;
+  border-radius:10px;*/
+  padding:10px;
+}
+
+#userBox{
+  margin-top:-15px;
+  font-weight:bold;
+  background-color:#FFFF99;
+  border:solid 5px;
+  border-color:#191919;
+  border-top:0px;
+  border-radius: 0px  0px 10px 10px;
+  padding-top:14px;
+}
+
+th{
+}
+td{
+  text-align:left;
+  /*padding:10px;*/
+}
+
+select {
+  font-family:"Trebuchet MS";
+  width:150px;
+  height:35px;
+}
+
+textarea{
+  width:175px;
+  height:100px;
+  font-family:sans-serif;
+  color:#191919;
+}
+fieldset{
+
+}
+.scroll{
+  width:1360px;
+}
+
+#mainPage{
+  float:left;
+}
+
+#reportPage{
+  float:left;
+}
+
+.text1{
+  font-size:20px;
+  font-family:"Arial Narrow";
+}
+
+#powered{
+  font-size:20px;
+  font-weight: normal;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#headNavbar{
+  padding:20px;
+  padding-bottom:0px;
+  background-color:#FFC40F;
+ font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+#navbar{
+  text-align:center;
+  margin-left:-15px;
+}
+#navbar ul li {  
+  display: inline; 
+  font-size:20px;
+  } 
+
+#navbar ul li a { 
+  text-decoration: none; 
+  padding: .2em 1em; 
+  color: #000; 
+  } 
+
+#navbar ul li a:hover { 
+  color: #fff; 
+  <!--background-color: #fff; -->
+}
+
+#contents{
+  
+}
+#contents th{
+  background-color:#01A0C2;
+  border-spacing:0;
+}
+#contents tr td{
+  text-align: center;
+  background-color:white;;
+}
+
+#inspec{
+  width:100%;
+}
+#inspec th{
+  background-color:#01A0C2;
+  border-spacing:0;
+}
+#inspec tr td{
+  text-align:center;
+  background-color:white;
+}
+
+#addMaterial{
+  background-color:#CCCCCC;
+  width:150px;
+  margin:0 auto;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border-radius:10px;
+}
+
+a.xwhite:visited{
+  color:white;
+  text-decoration: none;
+}
+
+#reportDiv{
+  position:absolute;
+  left:0px;
+  top:0px;
+  background:rgba(0,0,0,.5);
+  width:100%;
+  height:100%;
+
+}
+#reportPage{
+  width:630px;
+  background-color:white;
+  padding:20px;
+  border:15px solid  rgba(30,63,180,0.5);
+  border-radius:10px;
+  margin-left:25%;
+  margin-right:25%;
+  margin-top:80px;
+  box-shadow:10px 10px 20px #191919;
+}
+
+.denyPage{
+  position:fixed;
+  left:0px;
+  top:0px;
+  background:rgba(0,0,0,.5);
+  width:100%;
+  height:100%;
+
+}
+
+.denyBlock{
+  width:210px;
+  background-color:white;
+  padding:20px;
+  border:10px solid  rgba(30,63,180,0.5);
+  border-radius:10px;
+  margin:0 auto;
+  margin-top:100px;
+  box-shadow:10px 10px 20px #191919;
+}
+
+.inspectPage{
+  position:fixed;
+  left:0px;
+  top:0px;
+  background:rgba(0,0,0,.5);
+  width:100%;
+  height:100%;
+}
+
+.inspectBlock{
+  width:630px;
+  background-color:white;
+  padding:20px;
+  border:10px solid  rgba(30,63,180,0.5);
+  border-radius:10px;
+  margin:0 auto;
+  margin-top:50px;
+  box-shadow:10px 10px 20px #191919;
+}
+
+.jobOrderPage{
+  position:absolute;
+  left:0px;
+  top:0px;
+  background:rgba(0,0,0,.5);
+  width:100%;
+  height:100%;
+}
+
+.jobOrderBlock{
+
+  width:960px;
+  background-color:white;
+  padding:20px;
+  border:10px solid  rgba(30,63,180,0.5);
+  border-radius:10px;
+  margin:0 auto;
+  margin-top:30px;
+  box-shadow:10px 10px 20px #191919;
+}
+
+.rightBold{
+  text-align:right;
+  font-weight: bold;
+}
